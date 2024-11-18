@@ -4,8 +4,88 @@
     <title>Tags on Digital Bath</title>
     <link>https://digitalbath.blog/tags/</link>
     <description>Recent content in Tags on Digital Bath</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <atom:link href="https://digitalbath.blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 18 Nov 2024 12:07:26 +0000</lastBuildDate><atom:link href="https://digitalbath.blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CSRF</title>
+      <link>https://digitalbath.blog/tags/csrf/</link>
+      <pubDate>Mon, 18 Nov 2024 12:07:26 +0000</pubDate>
+      
+      <guid>https://digitalbath.blog/tags/csrf/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>CVE</title>
+      <link>https://digitalbath.blog/tags/cve/</link>
+      <pubDate>Mon, 18 Nov 2024 12:07:26 +0000</pubDate>
+      
+      <guid>https://digitalbath.blog/tags/cve/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>CVE-2024-6628</title>
+      <link>https://digitalbath.blog/tags/cve-2024-6628/</link>
+      <pubDate>Mon, 18 Nov 2024 12:07:26 +0000</pubDate>
+      
+      <guid>https://digitalbath.blog/tags/cve-2024-6628/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>Security</title>
+      <link>https://digitalbath.blog/tags/security/</link>
+      <pubDate>Mon, 18 Nov 2024 12:07:26 +0000</pubDate>
+      
+      <guid>https://digitalbath.blog/tags/security/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>Technical Analysis</title>
+      <link>https://digitalbath.blog/tags/technical-analysis/</link>
+      <pubDate>Mon, 18 Nov 2024 12:07:26 +0000</pubDate>
+      
+      <guid>https://digitalbath.blog/tags/technical-analysis/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>WordPress</title>
+      <link>https://digitalbath.blog/tags/wordpress/</link>
+      <pubDate>Mon, 18 Nov 2024 12:07:26 +0000</pubDate>
+      
+      <guid>https://digitalbath.blog/tags/wordpress/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>CVE-2024-8856</title>
+      <link>https://digitalbath.blog/tags/cve-2024-8856/</link>
+      <pubDate>Mon, 18 Nov 2024 12:00:00 +0000</pubDate>
+      
+      <guid>https://digitalbath.blog/tags/cve-2024-8856/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>File Upload</title>
+      <link>https://digitalbath.blog/tags/file-upload/</link>
+      <pubDate>Mon, 18 Nov 2024 12:00:00 +0000</pubDate>
+      
+      <guid>https://digitalbath.blog/tags/file-upload/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
   </channel>
 </rss>

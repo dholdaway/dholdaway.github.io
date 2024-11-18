@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CSRF on Digital Bath</title>
+    <link>https://digitalbath.blog/tags/csrf/</link>
+    <description>Recent content in CSRF on Digital Bath</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 18 Nov 2024 12:07:26 +0000</lastBuildDate><atom:link href="https://digitalbath.blog/tags/csrf/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CVE-2024-6628 - EleForms CSRF Vulnerability</title>
+      <link>https://digitalbath.blog/posts/cve-2024-11118_-_wordpress_404_error_monitor_csrf/</link>
+      <pubDate>Mon, 18 Nov 2024 12:07:26 +0000</pubDate>
+      
+      <guid>https://digitalbath.blog/posts/cve-2024-11118_-_wordpress_404_error_monitor_csrf/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Critical Vulnerability: WordPress 404 Error Monitor CSRF Attack (CVE-2024-11118)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Published:&lt;/strong&gt; Saturday, November 16th, 2024 at 04:15:06 UTC
+&lt;strong&gt;Generated:&lt;/strong&gt; November 16th, 2024&lt;/p&gt;
+&lt;h2 id=&#34;summary&#34;&gt;&lt;strong&gt;Summary&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;A critical vulnerability (CVE-2024-11118) has been identified in the 404 Error Monitor plugin for WordPress, affecting all versions up to and including 1.1. The vulnerability is a Cross-Site Request Forgery (CSRF) issue due to missing or incorrect nonce validation on the &lt;code&gt;updatePluginSettings()&lt;/code&gt; function.&lt;/p&gt;
+&lt;h2 id=&#34;executive-summary&#34;&gt;&lt;strong&gt;Executive Summary&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;This vulnerability allows unauthenticated attackers to manipulate plugin settings and clear error logs by tricking site administrators into performing an action, such as clicking on a link. The critical flaw lies in the 404 Error Monitor plugin&amp;rsquo;s failure to properly validate nonces (a measure to prevent CSRF attacks) in the &lt;code&gt;updatePluginSettings()&lt;/code&gt; function.&lt;/p&gt;</description>
+      <content>&lt;p&gt;&lt;strong&gt;Critical Vulnerability: WordPress 404 Error Monitor CSRF Attack (CVE-2024-11118)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Published:&lt;/strong&gt; Saturday, November 16th, 2024 at 04:15:06 UTC
+&lt;strong&gt;Generated:&lt;/strong&gt; November 16th, 2024&lt;/p&gt;
+&lt;h2 id=&#34;summary&#34;&gt;&lt;strong&gt;Summary&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;A critical vulnerability (CVE-2024-11118) has been identified in the 404 Error Monitor plugin for WordPress, affecting all versions up to and including 1.1. The vulnerability is a Cross-Site Request Forgery (CSRF) issue due to missing or incorrect nonce validation on the &lt;code&gt;updatePluginSettings()&lt;/code&gt; function.&lt;/p&gt;
+&lt;h2 id=&#34;executive-summary&#34;&gt;&lt;strong&gt;Executive Summary&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;This vulnerability allows unauthenticated attackers to manipulate plugin settings and clear error logs by tricking site administrators into performing an action, such as clicking on a link. The critical flaw lies in the 404 Error Monitor plugin&amp;rsquo;s failure to properly validate nonces (a measure to prevent CSRF attacks) in the &lt;code&gt;updatePluginSettings()&lt;/code&gt; function.&lt;/p&gt;
+&lt;h2 id=&#34;technical-details&#34;&gt;&lt;strong&gt;Technical Details&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Vulnerability Type:&lt;/strong&gt; Cross-Site Request Forgery (CSRF)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Affected Functionality:&lt;/strong&gt; &lt;code&gt;updatePluginSettings()&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Nonce Validation Issue:&lt;/strong&gt; Missing or incorrect nonce validation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The nonce is not correctly checked for its integrity before being used to update plugin settings. This allows an attacker to craft a forged request that, when executed by a site administrator, will update plugin settings and clear error logs without authentication.&lt;/p&gt;
+&lt;h2 id=&#34;implications&#34;&gt;&lt;strong&gt;Implications&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;The implications of this vulnerability are significant:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Unauthorized changes&lt;/strong&gt;: An attacker can manipulate plugin settings and clear error logs, potentially leading to data loss or exposure.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Privilege escalation&lt;/strong&gt;: If an attacker can trick a site administrator into executing the forged request, they may gain elevated privileges within the WordPress environment.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Denial of Service (DoS)&lt;/strong&gt;: Clearing error logs could lead to a denial-of-service condition, making it difficult for administrators to identify and address issues.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;affected-products&#34;&gt;&lt;strong&gt;Affected Products&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;The vulnerability affects all versions of the 404 Error Monitor plugin up to and including 1.1.&lt;/p&gt;
+&lt;h2 id=&#34;mitigation-and-patching&#34;&gt;&lt;strong&gt;Mitigation and Patching&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;To mitigate this vulnerability:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Update to a patched version&lt;/strong&gt;: Ensure that the WordPress environment is updated to a version of the 404 Error Monitor plugin that has been patched for this vulnerability.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Disable the plugin&lt;/strong&gt;: Temporarily disable the 404 Error Monitor plugin until a patch is available, to prevent exploitation.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Implement additional security measures&lt;/strong&gt;: Consider implementing additional security measures, such as validating nonces more aggressively or using alternative validation methods.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;broader-relevance&#34;&gt;&lt;strong&gt;Broader Relevance&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;This vulnerability highlights the importance of:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Regular security updates and patches&lt;/strong&gt;: Keeping software up-to-date with the latest security patches is essential to prevent exploitation.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;CSRF protection&lt;/strong&gt;: Properly validating nonces and implementing other measures to prevent CSRF attacks are critical in protecting against this type of attack.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Plugin security best practices&lt;/strong&gt;: Developers should prioritize security when creating plugins, ensuring that all necessary measures are taken to prevent vulnerabilities like this one.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;conclusion&#34;&gt;&lt;strong&gt;Conclusion&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;CVE-2024-11118 is a significant vulnerability in the 404 Error Monitor plugin for WordPress, affecting all versions up to and including 1.1. The vulnerability allows unauthenticated attackers to manipulate plugin settings and clear error logs through a CSRF attack. It is essential to update to a patched version or disable the plugin until a fix is available, and consider implementing additional security measures to prevent exploitation.&lt;/p&gt;
+&lt;h3 id=&#34;original-article&#34;&gt;&lt;strong&gt;Original Article:&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://cvefeed.io/vuln/detail/CVE-2024-11118&#34;&gt;Read more&lt;/a&gt;&lt;/p&gt;
+</content>
+    </item>
+    
+  </channel>
+</rss>
