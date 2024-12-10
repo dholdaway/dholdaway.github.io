@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Cybersecurity on Digital Bath</title>
-    <link>https://digitalbath.blog/categories/cybersecurity/</link>
-    <description>Recent content in Cybersecurity on Digital Bath</description>
+    <title>Red Team on Digital Bath</title>
+    <link>https://digitalbath.blog/tags/red-team/</link>
+    <description>Recent content in Red Team on Digital Bath</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 10 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://digitalbath.blog/categories/cybersecurity/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 10 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://digitalbath.blog/tags/red-team/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Understanding DNS Zone Transfers: A Red Team Hacker&#39;s Perspective</title>
       <link>https://digitalbath.blog/posts/dns_zone_transfers_blog/</link>

@@ -179,19 +179,23 @@
     
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="https://digitalbath.blog/posts/cve-2024-11092_-_wordpress_svgplus_stored_cross-site_scripting_vulnerability/">CVE-2024-11092 - WordPress SVGPlus Stored Cross-Site Scripting Vulnerability</a>
+          <a href="https://digitalbath.blog/posts/dns_zone_transfers_blog/">Understanding DNS Zone Transfers: A Red Team Hacker&rsquo;s Perspective</a>
         </h2>
 
-        <div class="post-meta"><time class="post-date">2024-11-18</time></div>
+        <div class="post-meta"><time class="post-date">2024-12-10</time></div>
 
         
           <span class="post-tags">
             
-            #<a href="https://digitalbath.blog/tags/cve/">CVE</a>&nbsp;
+            #<a href="https://digitalbath.blog/tags/dns-zone-transfers/">DNS Zone Transfers</a>&nbsp;
             
-            #<a href="https://digitalbath.blog/tags/security/">Security</a>&nbsp;
+            #<a href="https://digitalbath.blog/tags/cybersecurity/">Cybersecurity</a>&nbsp;
             
-            #<a href="https://digitalbath.blog/tags/technical-analysis/">Technical Analysis</a>&nbsp;
+            #<a href="https://digitalbath.blog/tags/red-team/">Red Team</a>&nbsp;
+            
+            #<a href="https://digitalbath.blog/tags/dns-security/">DNS Security</a>&nbsp;
+            
+            #<a href="https://digitalbath.blog/tags/network-reconnaissance/">Network Reconnaissance</a>&nbsp;
             
           </span>
         
@@ -201,140 +205,14 @@
 
         <div class="post-content">
           
-            <h3 id="cve-2024-11092-critical-stored-cross-site-scripting-vulnerability-in-wordpress-svgplus"><strong>CVE-2024-11092: Critical Stored Cross-Site Scripting Vulnerability in WordPress SVGPlus</strong></h3>
-<h4 id="vulnerability-summary"><strong>Vulnerability Summary</strong></h4>
-<p>This vulnerability analysis highlights a critical stored cross-site scripting (XSS) vulnerability in the SVGPlus plugin for WordPress, which poses significant risks to users with Author-level access and above.</p>
-<h4 id="technical-analysis"><strong>Technical Analysis</strong></h4>
-<p>The vulnerability arises from insufficient input sanitization and output escaping in the SVGPlus plugin&rsquo;s REST API, specifically during SVG file uploads. The affected version, 1.1.0, fails to properly validate user-provided input, allowing authenticated attackers to inject arbitrary web scripts. These scripts are then executed whenever a user accesses the SVG file, posing a severe risk of cross-site scripting (XSS) attacks.</p>
+            <p>When it comes to reconnaissance, one of the juiciest targets for attackers is the Domain Name System (DNS). Often overlooked by defenders, DNS acts as the address book of the internet, translating human-friendly domain names into IP addresses. While this process is fundamental for the internet to function, misconfigurations in DNS servers can provide attackers with a treasure trove of information through <strong>DNS Zone Transfers</strong>.</p>
+<p>Let’s dive into what DNS Zone Transfers are, why they matter, and how attackers exploit them. But more importantly, we&rsquo;ll discuss how defenders can mitigate this often-overlooked vulnerability.</p>
           
         </div>
 
         
           <div>
-            <a class="read-more button inline" href="/posts/cve-2024-11092_-_wordpress_svgplus_stored_cross-site_scripting_vulnerability/">Read more</a>
-          </div>
-        
-      </article>
-    
-      <article class="post on-list">
-        <h2 class="post-title">
-          <a href="https://digitalbath.blog/posts/cve-2024-11094_-_wordpress_404_solution_sensitive_information_exposure/">CVE-2024-11094 - WordPress 404 Solution Sensitive Information Exposure</a>
-        </h2>
-
-        <div class="post-meta"><time class="post-date">2024-11-18</time></div>
-
-        
-          <span class="post-tags">
-            
-            #<a href="https://digitalbath.blog/tags/cve/">CVE</a>&nbsp;
-            
-            #<a href="https://digitalbath.blog/tags/security/">Security</a>&nbsp;
-            
-            #<a href="https://digitalbath.blog/tags/technical-analysis/">Technical Analysis</a>&nbsp;
-            
-          </span>
-        
-
-        
-
-
-        <div class="post-content">
-          
-            <h1 id="wordpress-404-solution-plugin-vulnerability-analysis-sensitive-information-exposure">WordPress 404 Solution Plugin Vulnerability Analysis: Sensitive Information Exposure</h1>
-<h2 id="overview">Overview</h2>
-<h3 id="published-november-16-2024">Published: November 16, 2024</h3>
-<h4 id="cve-2024-11094-vulnerability-summary">CVE-2024-11094 Vulnerability Summary</h4>
-<p>This analysis delves into the technical specifics of CVE-2024-11094, a critical vulnerability in the WordPress 404 Solution plugin. The discovery highlights significant implications for the security posture of WordPress users.</p>
-<h2 id="technical-details">Technical Details</h2>
-<h3 id="vulnerability-overview">Vulnerability Overview</h3>
-<p>The 404 Solution plugin is designed to manage redirects for WordPress sites. However, researchers have identified a vulnerability (CVE-2024-11094) that allows unauthenticated attackers to extract sensitive data from the plugin&rsquo;s export feature. The affected versions range from 1.0.0 up to and including 2.35.17.</p>
-          
-        </div>
-
-        
-          <div>
-            <a class="read-more button inline" href="/posts/cve-2024-11094_-_wordpress_404_solution_sensitive_information_exposure/">Read more</a>
-          </div>
-        
-      </article>
-    
-      <article class="post on-list">
-        <h2 class="post-title">
-          <a href="https://digitalbath.blog/posts/cve-2024-11118_-_wordpress_404_error_monitor_csrf/">CVE-2024-6628 - EleForms CSRF Vulnerability</a>
-        </h2>
-
-        <div class="post-meta"><time class="post-date">2024-11-18</time></div>
-
-        
-          <span class="post-tags">
-            
-            #<a href="https://digitalbath.blog/tags/cve-2024-6628/">CVE-2024-6628</a>&nbsp;
-            
-            #<a href="https://digitalbath.blog/tags/wordpress/">WordPress</a>&nbsp;
-            
-            #<a href="https://digitalbath.blog/tags/csrf/">CSRF</a>&nbsp;
-            
-          </span>
-        
-
-        
-
-
-        <div class="post-content">
-          
-            <p><strong>Critical Vulnerability: WordPress 404 Error Monitor CSRF Attack (CVE-2024-11118)</strong></p>
-<p><strong>Published:</strong> Saturday, November 16th, 2024 at 04:15:06 UTC
-<strong>Generated:</strong> November 16th, 2024</p>
-<h2 id="summary"><strong>Summary</strong></h2>
-<p>A critical vulnerability (CVE-2024-11118) has been identified in the 404 Error Monitor plugin for WordPress, affecting all versions up to and including 1.1. The vulnerability is a Cross-Site Request Forgery (CSRF) issue due to missing or incorrect nonce validation on the <code>updatePluginSettings()</code> function.</p>
-<h2 id="executive-summary"><strong>Executive Summary</strong></h2>
-<p>This vulnerability allows unauthenticated attackers to manipulate plugin settings and clear error logs by tricking site administrators into performing an action, such as clicking on a link. The critical flaw lies in the 404 Error Monitor plugin&rsquo;s failure to properly validate nonces (a measure to prevent CSRF attacks) in the <code>updatePluginSettings()</code> function.</p>
-          
-        </div>
-
-        
-          <div>
-            <a class="read-more button inline" href="/posts/cve-2024-11118_-_wordpress_404_error_monitor_csrf/">Read more</a>
-          </div>
-        
-      </article>
-    
-      <article class="post on-list">
-        <h2 class="post-title">
-          <a href="https://digitalbath.blog/posts/cve-2024-8856_-_wordpress_wp_time_capsule_arbitrary_file_upload_vulnerability/">CVE-2024-8856 - WordPress WP Time Capsule Arbitrary File Upload Vulnerability</a>
-        </h2>
-
-        <div class="post-meta"><time class="post-date">2024-11-18</time></div>
-
-        
-          <span class="post-tags">
-            
-            #<a href="https://digitalbath.blog/tags/cve-2024-8856/">CVE-2024-8856</a>&nbsp;
-            
-            #<a href="https://digitalbath.blog/tags/wordpress/">WordPress</a>&nbsp;
-            
-            #<a href="https://digitalbath.blog/tags/file-upload/">File Upload</a>&nbsp;
-            
-          </span>
-        
-
-        
-
-
-        <div class="post-content">
-          
-            <h2 id="summary">Summary</h2>
-<h3 id="vulnerability-analysis">Vulnerability Analysis</h3>
-<p><strong>WP Time Capsule Arbitrary File Upload Vulnerability</strong></p>
-<p>A critical vulnerability was discovered in the Backup and Staging by WP Time Capsule plugin for WordPress (CVE-2024-8856) on November 16, 2024. This analysis delves into the technical specifics of the vulnerability, its implications, and its relevance to the cybersecurity landscape.</p>
-<h2 id="technical-overview">Technical Overview</h2>
-<p>The WP Time Capsule plugin provides backup and staging functionality for WordPress sites. However, a critical flaw was discovered in the UploadHandler.php file due to missing file type validation. This allows unauthenticated attackers to upload arbitrary files on the affected site&rsquo;s server.</p>
-          
-        </div>
-
-        
-          <div>
-            <a class="read-more button inline" href="/posts/cve-2024-8856_-_wordpress_wp_time_capsule_arbitrary_file_upload_vulnerability/">Read more</a>
+            <a class="read-more button inline" href="/posts/dns_zone_transfers_blog/">Read more</a>
           </div>
         
       </article>

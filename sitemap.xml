@@ -3,60 +3,42 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://digitalbath.blog/categories/</loc>
-    <lastmod>2024-11-18T12:07:26+00:00</lastmod>
+    <lastmod>2024-12-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://digitalbath.blog/tags/csrf/</loc>
-    <lastmod>2024-11-18T12:07:26+00:00</lastmod>
-  </url><url>
-    <loc>https://digitalbath.blog/tags/cve/</loc>
-    <lastmod>2024-11-18T12:07:26+00:00</lastmod>
-  </url><url>
-    <loc>https://digitalbath.blog/posts/cve-2024-11092_-_wordpress_svgplus_stored_cross-site_scripting_vulnerability/</loc>
-    <lastmod>2024-11-18T12:07:26+00:00</lastmod>
-  </url><url>
-    <loc>https://digitalbath.blog/posts/cve-2024-11094_-_wordpress_404_solution_sensitive_information_exposure/</loc>
-    <lastmod>2024-11-18T12:07:26+00:00</lastmod>
-  </url><url>
-    <loc>https://digitalbath.blog/tags/cve-2024-6628/</loc>
-    <lastmod>2024-11-18T12:07:26+00:00</lastmod>
-  </url><url>
-    <loc>https://digitalbath.blog/posts/cve-2024-11118_-_wordpress_404_error_monitor_csrf/</loc>
-    <lastmod>2024-11-18T12:07:26+00:00</lastmod>
+    <loc>https://digitalbath.blog/tags/cybersecurity/</loc>
+    <lastmod>2024-12-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://digitalbath.blog/categories/cybersecurity/</loc>
-    <lastmod>2024-11-18T12:07:26+00:00</lastmod>
+    <lastmod>2024-12-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://digitalbath.blog/</loc>
-    <lastmod>2024-11-18T12:07:26+00:00</lastmod>
+    <lastmod>2024-12-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://digitalbath.blog/tags/dns-security/</loc>
+    <lastmod>2024-12-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://digitalbath.blog/tags/dns-zone-transfers/</loc>
+    <lastmod>2024-12-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://digitalbath.blog/tags/network-reconnaissance/</loc>
+    <lastmod>2024-12-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://digitalbath.blog/posts/</loc>
-    <lastmod>2024-11-18T12:07:26+00:00</lastmod>
+    <lastmod>2024-12-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://digitalbath.blog/tags/security/</loc>
-    <lastmod>2024-11-18T12:07:26+00:00</lastmod>
+    <loc>https://digitalbath.blog/tags/red-team/</loc>
+    <lastmod>2024-12-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://digitalbath.blog/categories/red-teaming/</loc>
+    <lastmod>2024-12-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://digitalbath.blog/tags/</loc>
-    <lastmod>2024-11-18T12:07:26+00:00</lastmod>
+    <lastmod>2024-12-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://digitalbath.blog/tags/technical-analysis/</loc>
-    <lastmod>2024-11-18T12:07:26+00:00</lastmod>
-  </url><url>
-    <loc>https://digitalbath.blog/categories/vulnerabilities/</loc>
-    <lastmod>2024-11-18T12:07:26+00:00</lastmod>
-  </url><url>
-    <loc>https://digitalbath.blog/tags/wordpress/</loc>
-    <lastmod>2024-11-18T12:07:26+00:00</lastmod>
+    <loc>https://digitalbath.blog/posts/dns_zone_transfers_blog/</loc>
+    <lastmod>2024-12-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://digitalbath.blog/about/</loc>
-    <lastmod>2024-11-18T12:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://digitalbath.blog/tags/cve-2024-8856/</loc>
-    <lastmod>2024-11-18T12:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://digitalbath.blog/posts/cve-2024-8856_-_wordpress_wp_time_capsule_arbitrary_file_upload_vulnerability/</loc>
-    <lastmod>2024-11-18T12:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://digitalbath.blog/tags/file-upload/</loc>
     <lastmod>2024-11-18T12:00:00+00:00</lastmod>
   </url><url>
     <loc>https://digitalbath.blog/archives/</loc>
